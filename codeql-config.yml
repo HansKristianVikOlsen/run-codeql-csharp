@@ -1,0 +1,4 @@
+name: "CodeQL config"
+disable-default-queries: true
+queries:
+  - uses: HansKristianVikOlsen/codeql/csharp/ql/src/codeql-suites/csharp-security-and-quality.qls@main
